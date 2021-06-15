@@ -20,3 +20,14 @@ To help faciliate real time communication between services, AMQP compliant appli
 ### Gateway
 
 The gateway's job is simple, be a gateway to all other microservices, while implementing a compatible trakt api. What this means is that the gateway must meet all technical specifications [designated here](https://trakt.docs.apiary.io/#) to be compatible with trakt's existing ecosystem. When an api request is made, the gateway must act in cordication with the other serivces to fulfill the request.
+
+### Invenio
+
+Invenio's job is to provide all the metadata necessary for each content type. Whether that be movies or tv shows, invenio will retrive the nessicary information from its collection of metadata providers.
+
+<!-- Invenio metadata provider examples:
+* themoviedb
+* tvdb
+* omdb
+* imdb
+-->
