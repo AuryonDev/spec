@@ -31,3 +31,7 @@ Invenio's job is to provide all the metadata necessary for each content type. Wh
 * omdb
 * imdb
 -->
+
+### Veritas
+
+Veritas is the source of truth for all authentication. It can: login/logout a user, check if logged in, or pass along these duties to a Single Sign-on (SSO) or other external authentication methods.
