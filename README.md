@@ -8,6 +8,15 @@ The guiding philosophy as to why Auryon is desgined as a microservice stems from
 
 # Technical Specifications
 
+## Interservice communication
+
+To help faciliate real time communication between services, AMQP compliant applications (like RabbitMQ) are used. For less than real time communication, simple http rest applications will be used.
+
+<!-- Notes for future:
+* will need to set a standard for how data is sent and received through AMQP
+* will need central docs for api endpoints
+-->
+
 ## Gateway
 
 The gateway's job is simple, be a gateway to all other microservices, while implementing a compatible trakt api. What this means is that the gateway must meet all technical specifications [designated here](https://trakt.docs.apiary.io/#) to be compatible with trakt's existing ecosystem.
