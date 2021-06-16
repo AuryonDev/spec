@@ -32,7 +32,9 @@ Invenio's job is to provide all the metadata necessary for each content type. Wh
 - omdb
 - imdb
 
-###
+### Quaero
+
+Quaero's job is to put and pull all user data requested.
 
 ### Veritas
 
