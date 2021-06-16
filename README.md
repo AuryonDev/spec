@@ -10,7 +10,7 @@ The guiding philosophy as to why Auryon is desgined as a microservice stems from
 
 ### Interservice communication
 
-To help faciliate real time communication between services, AMQP compliant applications (like RabbitMQ) are used. For less than real time communication, simple applications will be used.
+To faciliate real time communication between services, a REST api will be used.
 
 <!-- Notes for future:
 * will need to set a standard for how data is sent and received through AMQP
