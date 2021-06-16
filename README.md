@@ -25,20 +25,26 @@ The gateway's job is simple, be a gateway to all other microservices, while impl
 
 Invenio's job is to provide all the metadata necessary for each content type. Whether that be movies or tv shows, invenio will retrive the nessicary information from its collection of metadata providers.
 
-<!-- Invenio metadata provider examples:
-* themoviedb
-* tvdb
-* omdb
-* imdb
--->
+#### Invenio metadata providers:
+
+- themoviedb
+- tvdb
+- omdb
+- imdb
+
+###
 
 ### Veritas
 
 Veritas is the source of truth for all authentication. It can: login/logout a user, check if logged in, or pass along these duties to a Single Sign-on (SSO) or other external authentication methods.
 
-<!-- External methods include:
-* SSO
-* LDAP
-* OAuth
-* OpenID
--->
+#### External methods:
+
+- SSO
+- LDAP
+- OAuth
+- OpenID
+
+### MySQL
+
+Any SQL database that implement's MySQL api can be used for storage.
